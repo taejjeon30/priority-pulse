@@ -1,0 +1,4570 @@
+{
+  "name": "Lake Forest Hospital emergency corridor",
+  "source": "OpenStreetMap geometry and turn rules · tagged or assumed lane/speed values · simulated traffic and signals",
+  "nodes": [
+    {
+      "id": "3763397348",
+      "code": "I-01",
+      "name": "Lake Forest Hospital · modeled road access",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2550729,
+      "lng": -87.865576,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "3763397353",
+      "code": "I-02",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2548674,
+      "lng": -87.8652852,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "3763410861",
+      "code": "I-03",
+      "name": "Ring Road & Service Drive",
+      "streetNames": [
+        "Ring Road",
+        "Service Drive"
+      ],
+      "lat": 42.2554666,
+      "lng": -87.8674982,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "13890660528",
+      "code": "I-04",
+      "name": "I-04",
+      "streetNames": [],
+      "lat": 42.255238,
+      "lng": -87.8654062,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7499953083",
+      "code": "I-05",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2546057,
+      "lng": -87.8650888,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "3763397350",
+      "code": "I-06",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2572666,
+      "lng": -87.868245,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12652673088",
+      "code": "I-07",
+      "name": "Service Drive",
+      "streetNames": [
+        "Service Drive"
+      ],
+      "lat": 42.2557315,
+      "lng": -87.8663098,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414171",
+      "code": "I-08",
+      "name": "Service Drive",
+      "streetNames": [
+        "Service Drive"
+      ],
+      "lat": 42.255361,
+      "lng": -87.8686251,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "13890660526",
+      "code": "I-09",
+      "name": "I-09",
+      "streetNames": [],
+      "lat": 42.2553841,
+      "lng": -87.8653475,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12616349960",
+      "code": "I-10",
+      "name": "Westmoreland Connector Road",
+      "streetNames": [
+        "Westmoreland Connector Road"
+      ],
+      "lat": 42.2544511,
+      "lng": -87.8650436,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414153",
+      "code": "I-11",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2574211,
+      "lng": -87.8681031,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414162",
+      "code": "I-12",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.257464,
+      "lng": -87.86835,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414163",
+      "code": "I-13",
+      "name": "Service Drive",
+      "streetNames": [
+        "Service Drive"
+      ],
+      "lat": 42.2558791,
+      "lng": -87.8658413,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12652673089",
+      "code": "I-14",
+      "name": "I-14",
+      "streetNames": [],
+      "lat": 42.2557432,
+      "lng": -87.866167,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414179",
+      "code": "I-15",
+      "name": "Service Drive",
+      "streetNames": [
+        "Service Drive"
+      ],
+      "lat": 42.2560361,
+      "lng": -87.8708487,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12772794605",
+      "code": "I-16",
+      "name": "Westmoreland Connector Road",
+      "streetNames": [
+        "Westmoreland Connector Road"
+      ],
+      "lat": 42.254496,
+      "lng": -87.8646991,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "13055184125",
+      "code": "I-17",
+      "name": "I-17",
+      "streetNames": [],
+      "lat": 42.2542532,
+      "lng": -87.8650132,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414152",
+      "code": "I-18",
+      "name": "I-18",
+      "streetNames": [],
+      "lat": 42.2574307,
+      "lng": -87.8680725,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414135",
+      "code": "I-19",
+      "name": "N Westmoreland Connector Road",
+      "streetNames": [
+        "N Westmoreland Connector Road"
+      ],
+      "lat": 42.2575655,
+      "lng": -87.8684164,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7499828549",
+      "code": "I-20",
+      "name": "I-20",
+      "streetNames": [],
+      "lat": 42.2558476,
+      "lng": -87.8658213,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12652673092",
+      "code": "I-21",
+      "name": "I-21",
+      "streetNames": [],
+      "lat": 42.2558213,
+      "lng": -87.8657961,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235243094",
+      "code": "I-22",
+      "name": "Service Drive & South Waukegan Road",
+      "streetNames": [
+        "Service Drive",
+        "South Waukegan Road"
+      ],
+      "lat": 42.2559195,
+      "lng": -87.8718673,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235207041",
+      "code": "I-23",
+      "name": "Service Drive & South Waukegan Road",
+      "streetNames": [
+        "Service Drive",
+        "South Waukegan Road"
+      ],
+      "lat": 42.2562263,
+      "lng": -87.871856,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12772794582",
+      "code": "I-24",
+      "name": "Westmoreland Connector Road",
+      "streetNames": [
+        "Westmoreland Connector Road"
+      ],
+      "lat": 42.2544976,
+      "lng": -87.8635993,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12772794607",
+      "code": "I-25",
+      "name": "I-25",
+      "streetNames": [],
+      "lat": 42.2548337,
+      "lng": -87.8646249,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7499693362",
+      "code": "I-26",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2539311,
+      "lng": -87.8650292,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414122",
+      "code": "I-27",
+      "name": "I-27",
+      "streetNames": [],
+      "lat": 42.2571495,
+      "lng": -87.8665286,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414145",
+      "code": "I-28",
+      "name": "I-28",
+      "streetNames": [],
+      "lat": 42.257686,
+      "lng": -87.8679838,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414131",
+      "code": "I-29",
+      "name": "N Westmoreland Connector Road",
+      "streetNames": [
+        "N Westmoreland Connector Road"
+      ],
+      "lat": 42.2576835,
+      "lng": -87.8686319,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414139",
+      "code": "I-30",
+      "name": "N Westmoreland Connector Road",
+      "streetNames": [
+        "N Westmoreland Connector Road"
+      ],
+      "lat": 42.2577076,
+      "lng": -87.8683541,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7085332552",
+      "code": "I-31",
+      "name": "South Waukegan Road",
+      "streetNames": [
+        "South Waukegan Road"
+      ],
+      "lat": 42.2560868,
+      "lng": -87.8718611,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7085332546",
+      "code": "I-32",
+      "name": "South Waukegan Road",
+      "streetNames": [
+        "South Waukegan Road"
+      ],
+      "lat": 42.2553187,
+      "lng": -87.8718749,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235305496",
+      "code": "I-33",
+      "name": "Middlefork Drive & North Westmoreland Road",
+      "streetNames": [
+        "Middlefork Drive",
+        "North Westmoreland Road",
+        "South Waukegan Road"
+      ],
+      "lat": 42.2580804,
+      "lng": -87.8718495,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "OSM signal location; assumed timing"
+    },
+    {
+      "id": "235553451",
+      "code": "I-34",
+      "name": "North Westmoreland Road & Westmoreland Connector Road",
+      "streetNames": [
+        "North Westmoreland Road",
+        "Westmoreland Connector Road"
+      ],
+      "lat": 42.2544923,
+      "lng": -87.8631161,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12772794583",
+      "code": "I-35",
+      "name": "I-35",
+      "streetNames": [],
+      "lat": 42.2548091,
+      "lng": -87.8636191,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12772794616",
+      "code": "I-36",
+      "name": "I-36",
+      "streetNames": [],
+      "lat": 42.2550108,
+      "lng": -87.864725,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7499972191",
+      "code": "I-37",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2530987,
+      "lng": -87.8651356,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235209119",
+      "code": "I-38",
+      "name": "I-38",
+      "streetNames": [],
+      "lat": 42.2539368,
+      "lng": -87.8653284,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414121",
+      "code": "I-39",
+      "name": "I-39",
+      "streetNames": [],
+      "lat": 42.257309,
+      "lng": -87.8664606,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414144",
+      "code": "I-40",
+      "name": "I-40",
+      "streetNames": [],
+      "lat": 42.257717,
+      "lng": -87.86802,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414108",
+      "code": "I-41",
+      "name": "N Westmoreland Connector Road",
+      "streetNames": [
+        "N Westmoreland Connector Road"
+      ],
+      "lat": 42.2577927,
+      "lng": -87.8694147,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5320414141",
+      "code": "I-42",
+      "name": "I-42",
+      "streetNames": [],
+      "lat": 42.2577613,
+      "lng": -87.8682163,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235370269",
+      "code": "I-43",
+      "name": "South Waukegan Road",
+      "streetNames": [
+        "South Waukegan Road"
+      ],
+      "lat": 42.25476,
+      "lng": -87.871882,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "2356846578",
+      "code": "I-44",
+      "name": "Middlefork Drive",
+      "streetNames": [
+        "Middlefork Drive"
+      ],
+      "lat": 42.2581342,
+      "lng": -87.8730795,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235553299",
+      "code": "I-45",
+      "name": "N Westmoreland Connector Road & North Westmoreland Road",
+      "streetNames": [
+        "N Westmoreland Connector Road",
+        "North Westmoreland Road"
+      ],
+      "lat": 42.2579297,
+      "lng": -87.8700771,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "5588084122",
+      "code": "I-46",
+      "name": "Middlefork Drive & South Waukegan Road",
+      "streetNames": [
+        "Middlefork Drive",
+        "South Waukegan Road"
+      ],
+      "lat": 42.2581817,
+      "lng": -87.8718435,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "OSM signal location; assumed timing"
+    },
+    {
+      "id": "235553448",
+      "code": "I-47",
+      "name": "North Westmoreland Road",
+      "streetNames": [
+        "North Westmoreland Road"
+      ],
+      "lat": 42.2547187,
+      "lng": -87.8630924,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "235553460",
+      "code": "I-48",
+      "name": "North Westmoreland Road",
+      "streetNames": [
+        "North Westmoreland Road"
+      ],
+      "lat": 42.2540016,
+      "lng": -87.8631296,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "12772794597",
+      "code": "I-49",
+      "name": "I-49",
+      "streetNames": [],
+      "lat": 42.2549476,
+      "lng": -87.86377,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    },
+    {
+      "id": "7499972192",
+      "code": "I-50",
+      "name": "Ring Road",
+      "streetNames": [
+        "Ring Road"
+      ],
+      "lat": 42.2528629,
+      "lng": -87.8654005,
+      "greens": [
+        22,
+        22,
+        22,
+        22
+      ],
+      "yellow": 3,
+      "allRed": 2,
+      "lanes": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "pedestrian": 19,
+      "signalSource": "Assumed simulated signal"
+    }
+  ],
+  "roads": [
+    {
+      "id": "r226946255-2356846578-235305496",
+      "osmWayId": "226946255",
+      "from": "2356846578",
+      "to": "235305496",
+      "name": "Middlefork Drive",
+      "length": 102,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "residential",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2581342,
+          -87.8730795
+        ],
+        [
+          42.2580925,
+          -87.8727592
+        ],
+        [
+          42.2580966,
+          -87.8720154
+        ],
+        [
+          42.2580804,
+          -87.8718495
+        ]
+      ]
+    },
+    {
+      "id": "r226946256-5588084122-2356846578",
+      "osmWayId": "226946256",
+      "from": "5588084122",
+      "to": "2356846578",
+      "name": "Middlefork Drive",
+      "length": 102,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "residential",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2581817,
+          -87.8718435
+        ],
+        [
+          42.2581836,
+          -87.872018
+        ],
+        [
+          42.2581837,
+          -87.8720292
+        ],
+        [
+          42.2581776,
+          -87.8727676
+        ],
+        [
+          42.2581342,
+          -87.8730795
+        ]
+      ]
+    },
+    {
+      "id": "r372791849-7499693362-13055184125",
+      "osmWayId": "372791849",
+      "from": "7499693362",
+      "to": "13055184125",
+      "name": "Unnamed road",
+      "length": 36,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2539311,
+          -87.8650292
+        ],
+        [
+          42.2539888,
+          -87.8650245
+        ],
+        [
+          42.2541091,
+          -87.8650147
+        ],
+        [
+          42.2542532,
+          -87.8650132
+        ]
+      ]
+    },
+    {
+      "id": "r550895040-5320414108-5320414131",
+      "osmWayId": "550895040",
+      "from": "5320414108",
+      "to": "5320414131",
+      "name": "N Westmoreland Connector Road",
+      "length": 66,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2577927,
+          -87.8694147
+        ],
+        [
+          42.2577843,
+          -87.8692491
+        ],
+        [
+          42.2577691,
+          -87.8690903
+        ],
+        [
+          42.2577356,
+          -87.8688588
+        ],
+        [
+          42.2576835,
+          -87.8686319
+        ]
+      ]
+    },
+    {
+      "id": "r550895042-235553299-5320414108",
+      "osmWayId": "550895042",
+      "from": "235553299",
+      "to": "5320414108",
+      "name": "N Westmoreland Connector Road",
+      "length": 58,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2579297,
+          -87.8700771
+        ],
+        [
+          42.2578884,
+          -87.8699729
+        ],
+        [
+          42.2578647,
+          -87.8699107
+        ],
+        [
+          42.2578296,
+          -87.8698186
+        ],
+        [
+          42.2577927,
+          -87.8696189
+        ],
+        [
+          42.2577927,
+          -87.8694147
+        ]
+      ]
+    },
+    {
+      "id": "r550895043-235305496-235553299",
+      "osmWayId": "550895043",
+      "from": "235305496",
+      "to": "235553299",
+      "name": "North Westmoreland Road",
+      "length": 148,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2580804,
+          -87.8718495
+        ],
+        [
+          42.2580632,
+          -87.8716387
+        ],
+        [
+          42.2580445,
+          -87.8705968
+        ],
+        [
+          42.2580227,
+          -87.8704017
+        ],
+        [
+          42.2579874,
+          -87.870261
+        ],
+        [
+          42.2579297,
+          -87.8700771
+        ]
+      ]
+    },
+    {
+      "id": "r550895045-5320414121-5320414145",
+      "osmWayId": "550895045",
+      "from": "5320414121",
+      "to": "5320414145",
+      "name": "Unnamed road",
+      "length": 133,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.257309,
+          -87.8664606
+        ],
+        [
+          42.2573678,
+          -87.866599
+        ],
+        [
+          42.2574971,
+          -87.8670323
+        ],
+        [
+          42.2576079,
+          -87.8674839
+        ],
+        [
+          42.2576654,
+          -87.8677347
+        ],
+        [
+          42.2576869,
+          -87.8678287
+        ],
+        [
+          42.257686,
+          -87.8679838
+        ]
+      ]
+    },
+    {
+      "id": "r550895046-5320414152-5320414122",
+      "osmWayId": "550895046",
+      "from": "5320414152",
+      "to": "5320414122",
+      "name": "Unnamed road",
+      "length": 132,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2574307,
+          -87.8680725
+        ],
+        [
+          42.2573873,
+          -87.8680012
+        ],
+        [
+          42.257344,
+          -87.8678639
+        ],
+        [
+          42.2573141,
+          -87.8677425
+        ],
+        [
+          42.2572351,
+          -87.8672706
+        ],
+        [
+          42.2571814,
+          -87.8669257
+        ],
+        [
+          42.2571495,
+          -87.8665286
+        ]
+      ]
+    },
+    {
+      "id": "r550895049-3763397350-5320414153",
+      "osmWayId": "550895049",
+      "from": "3763397350",
+      "to": "5320414153",
+      "name": "Ring Road",
+      "length": 21,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2572666,
+          -87.868245
+        ],
+        [
+          42.2573469,
+          -87.8681833
+        ],
+        [
+          42.2574211,
+          -87.8681031
+        ]
+      ]
+    },
+    {
+      "id": "r550895050-5320414131-5320414135",
+      "osmWayId": "550895050",
+      "from": "5320414131",
+      "to": "5320414135",
+      "name": "N Westmoreland Connector Road",
+      "length": 22,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2576835,
+          -87.8686319
+        ],
+        [
+          42.2576314,
+          -87.8684981
+        ],
+        [
+          42.2575655,
+          -87.8684164
+        ]
+      ]
+    },
+    {
+      "id": "r550895051-5320414139-5320414131",
+      "osmWayId": "550895051",
+      "from": "5320414139",
+      "to": "5320414131",
+      "name": "N Westmoreland Connector Road",
+      "length": 23,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2577076,
+          -87.8683541
+        ],
+        [
+          42.2576885,
+          -87.8684845
+        ],
+        [
+          42.2576835,
+          -87.8686319
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414162-5320414153",
+      "osmWayId": "550895052",
+      "from": "5320414162",
+      "to": "5320414153",
+      "name": "Unnamed road",
+      "length": 22,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.257464,
+          -87.86835
+        ],
+        [
+          42.2574391,
+          -87.8683085
+        ],
+        [
+          42.2574217,
+          -87.8682605
+        ],
+        [
+          42.2574127,
+          -87.8682086
+        ],
+        [
+          42.2574125,
+          -87.8681552
+        ],
+        [
+          42.2574211,
+          -87.8681031
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414153-5320414152",
+      "osmWayId": "550895052",
+      "from": "5320414153",
+      "to": "5320414152",
+      "name": "Unnamed road",
+      "length": 3,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2574211,
+          -87.8681031
+        ],
+        [
+          42.2574307,
+          -87.8680725
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414152-5320414145",
+      "osmWayId": "550895052",
+      "from": "5320414152",
+      "to": "5320414145",
+      "name": "Unnamed road",
+      "length": 33,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2574307,
+          -87.8680725
+        ],
+        [
+          42.2574544,
+          -87.8680249
+        ],
+        [
+          42.2574859,
+          -87.8679864
+        ],
+        [
+          42.2575233,
+          -87.8679592
+        ],
+        [
+          42.2575644,
+          -87.8679449
+        ],
+        [
+          42.2576069,
+          -87.8679444
+        ],
+        [
+          42.2576482,
+          -87.8679576
+        ],
+        [
+          42.257686,
+          -87.8679838
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414145-5320414144",
+      "osmWayId": "550895052",
+      "from": "5320414145",
+      "to": "5320414144",
+      "name": "Unnamed road",
+      "length": 5,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.257686,
+          -87.8679838
+        ],
+        [
+          42.257717,
+          -87.86802
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414144-5320414141",
+      "osmWayId": "550895052",
+      "from": "5320414144",
+      "to": "5320414141",
+      "name": "Unnamed road",
+      "length": 17,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.257717,
+          -87.86802
+        ],
+        [
+          42.2577462,
+          -87.8680784
+        ],
+        [
+          42.2577614,
+          -87.8681458
+        ],
+        [
+          42.2577613,
+          -87.8682163
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414141-5320414139",
+      "osmWayId": "550895052",
+      "from": "5320414141",
+      "to": "5320414139",
+      "name": "Unnamed road",
+      "length": 13,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2577613,
+          -87.8682163
+        ],
+        [
+          42.2577512,
+          -87.8682673
+        ],
+        [
+          42.257733,
+          -87.868314
+        ],
+        [
+          42.2577076,
+          -87.8683541
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414139-5320414135",
+      "osmWayId": "550895052",
+      "from": "5320414139",
+      "to": "5320414135",
+      "name": "Unnamed road",
+      "length": 17,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2577076,
+          -87.8683541
+        ],
+        [
+          42.2576768,
+          -87.8683853
+        ],
+        [
+          42.2576417,
+          -87.8684067
+        ],
+        [
+          42.257604,
+          -87.8684172
+        ],
+        [
+          42.2575655,
+          -87.8684164
+        ]
+      ]
+    },
+    {
+      "id": "r550895052-5320414135-5320414162",
+      "osmWayId": "550895052",
+      "from": "5320414135",
+      "to": "5320414162",
+      "name": "Unnamed road",
+      "length": 13,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "junction": "roundabout"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2575655,
+          -87.8684164
+        ],
+        [
+          42.2575283,
+          -87.8684045
+        ],
+        [
+          42.2574939,
+          -87.868382
+        ],
+        [
+          42.257464,
+          -87.86835
+        ]
+      ]
+    },
+    {
+      "id": "r550895053-5320414162-3763397350",
+      "osmWayId": "550895053",
+      "from": "5320414162",
+      "to": "3763397350",
+      "name": "Ring Road",
+      "length": 24,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.257464,
+          -87.86835
+        ],
+        [
+          42.2573764,
+          -87.8682809
+        ],
+        [
+          42.2572666,
+          -87.868245
+        ]
+      ]
+    },
+    {
+      "id": "r550895054-5320414179-5320414171",
+      "osmWayId": "550895054",
+      "from": "5320414179",
+      "to": "5320414171",
+      "name": "Service Drive",
+      "length": 198,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "no",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2560361,
+          -87.8708487
+        ],
+        [
+          42.2559656,
+          -87.8705492
+        ],
+        [
+          42.2558413,
+          -87.8701998
+        ],
+        [
+          42.2556734,
+          -87.8697142
+        ],
+        [
+          42.2555592,
+          -87.869333
+        ],
+        [
+          42.255361,
+          -87.8686251
+        ]
+      ]
+    },
+    {
+      "id": "r550895055-235243094-5320414179",
+      "osmWayId": "550895055",
+      "from": "235243094",
+      "to": "5320414179",
+      "name": "Service Drive",
+      "length": 87,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2559195,
+          -87.8718673
+        ],
+        [
+          42.2559958,
+          -87.8716836
+        ],
+        [
+          42.2560428,
+          -87.871493
+        ],
+        [
+          42.2560395,
+          -87.8711119
+        ],
+        [
+          42.2560361,
+          -87.8708487
+        ]
+      ]
+    },
+    {
+      "id": "r550895056-5320414179-235207041",
+      "osmWayId": "550895056",
+      "from": "5320414179",
+      "to": "235207041",
+      "name": "Service Drive",
+      "length": 87,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2560361,
+          -87.8708487
+        ],
+        [
+          42.2560999,
+          -87.8710619
+        ],
+        [
+          42.2561066,
+          -87.8712344
+        ],
+        [
+          42.2561167,
+          -87.8715429
+        ],
+        [
+          42.2561604,
+          -87.8717199
+        ],
+        [
+          42.2562263,
+          -87.871856
+        ]
+      ]
+    },
+    {
+      "id": "r759814507-7085332552-235243094",
+      "osmWayId": "759814507",
+      "from": "7085332552",
+      "to": "235243094",
+      "name": "South Waukegan Road",
+      "length": 19,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "primary"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2560868,
+          -87.8718611
+        ],
+        [
+          42.2559195,
+          -87.8718673
+        ]
+      ]
+    },
+    {
+      "id": "r759814508-235243094-7085332546",
+      "osmWayId": "759814508",
+      "from": "235243094",
+      "to": "7085332546",
+      "name": "South Waukegan Road",
+      "length": 67,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "primary"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2559195,
+          -87.8718673
+        ],
+        [
+          42.2553187,
+          -87.8718749
+        ]
+      ]
+    },
+    {
+      "id": "r759814509-235207041-7085332552",
+      "osmWayId": "759814509",
+      "from": "235207041",
+      "to": "7085332552",
+      "name": "South Waukegan Road",
+      "length": 16,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "primary"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2562263,
+          -87.871856
+        ],
+        [
+          42.2560868,
+          -87.8718611
+        ]
+      ]
+    },
+    {
+      "id": "r801830612-7499693362-7499972191",
+      "osmWayId": "801830612",
+      "from": "7499693362",
+      "to": "7499972191",
+      "name": "Ring Road",
+      "length": 94,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2539311,
+          -87.8650292
+        ],
+        [
+          42.253862,
+          -87.8650227
+        ],
+        [
+          42.253465,
+          -87.8650184
+        ],
+        [
+          42.2532299,
+          -87.8650588
+        ],
+        [
+          42.2530987,
+          -87.8651356
+        ]
+      ]
+    },
+    {
+      "id": "r801830612-7499972191-7499972192",
+      "osmWayId": "801830612",
+      "from": "7499972191",
+      "to": "7499972192",
+      "name": "Ring Road",
+      "length": 34,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2530987,
+          -87.8651356
+        ],
+        [
+          42.2529507,
+          -87.8652809
+        ],
+        [
+          42.2528629,
+          -87.8654005
+        ]
+      ]
+    },
+    {
+      "id": "r1106981388-235209119-7499693362",
+      "osmWayId": "1106981388",
+      "from": "235209119",
+      "to": "7499693362",
+      "name": "Unnamed road",
+      "length": 25,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "no"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2539368,
+          -87.8653284
+        ],
+        [
+          42.2539311,
+          -87.8650292
+        ]
+      ]
+    },
+    {
+      "id": "r1154389793-235553448-235553451",
+      "osmWayId": "1154389793",
+      "from": "235553448",
+      "to": "235553451",
+      "name": "North Westmoreland Road",
+      "length": 25,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2547187,
+          -87.8630924
+        ],
+        [
+          42.2546147,
+          -87.8631035
+        ],
+        [
+          42.2544923,
+          -87.8631161
+        ]
+      ]
+    },
+    {
+      "id": "r1154389793-235553451-235553460",
+      "osmWayId": "1154389793",
+      "from": "235553451",
+      "to": "235553460",
+      "name": "North Westmoreland Road",
+      "length": 55,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2544923,
+          -87.8631161
+        ],
+        [
+          42.254321,
+          -87.863127
+        ],
+        [
+          42.2541018,
+          -87.8631351
+        ],
+        [
+          42.2540016,
+          -87.8631296
+        ]
+      ]
+    },
+    {
+      "id": "r1184340277-3763410861-3763397350",
+      "osmWayId": "1184340277",
+      "from": "3763410861",
+      "to": "3763397350",
+      "name": "Ring Road",
+      "length": 214,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2554666,
+          -87.8674982
+        ],
+        [
+          42.2555019,
+          -87.8675311
+        ],
+        [
+          42.2556224,
+          -87.8676452
+        ],
+        [
+          42.2557484,
+          -87.8677645
+        ],
+        [
+          42.2558894,
+          -87.8678757
+        ],
+        [
+          42.2562266,
+          -87.8680596
+        ],
+        [
+          42.2564827,
+          -87.8681506
+        ],
+        [
+          42.2567109,
+          -87.8682149
+        ],
+        [
+          42.2568221,
+          -87.8682376
+        ],
+        [
+          42.2569505,
+          -87.8682473
+        ],
+        [
+          42.2572666,
+          -87.868245
+        ]
+      ]
+    },
+    {
+      "id": "r1184340278-3763410861-12652673088",
+      "osmWayId": "1184340278",
+      "from": "3763410861",
+      "to": "12652673088",
+      "name": "Service Drive",
+      "length": 104,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "oneway": "no",
+        "motor_vehicle": "designated",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2554666,
+          -87.8674982
+        ],
+        [
+          42.2555203,
+          -87.8673826
+        ],
+        [
+          42.2555692,
+          -87.8672774
+        ],
+        [
+          42.2556364,
+          -87.8669779
+        ],
+        [
+          42.2556674,
+          -87.8666053
+        ],
+        [
+          42.2557019,
+          -87.8664037
+        ],
+        [
+          42.2557315,
+          -87.8663098
+        ]
+      ]
+    },
+    {
+      "id": "r1184340278-12652673088-5320414163",
+      "osmWayId": "1184340278",
+      "from": "12652673088",
+      "to": "5320414163",
+      "name": "Service Drive",
+      "length": 42,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "oneway": "no",
+        "motor_vehicle": "designated",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2557315,
+          -87.8663098
+        ],
+        [
+          42.2558791,
+          -87.8658413
+        ]
+      ]
+    },
+    {
+      "id": "r1184340295-5320414171-3763410861",
+      "osmWayId": "1184340295",
+      "from": "5320414171",
+      "to": "3763410861",
+      "name": "Service Drive",
+      "length": 98,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "no",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.255361,
+          -87.8686251
+        ],
+        [
+          42.2553005,
+          -87.8682803
+        ],
+        [
+          42.2552871,
+          -87.8680851
+        ],
+        [
+          42.2553039,
+          -87.8679308
+        ],
+        [
+          42.2553576,
+          -87.8677176
+        ],
+        [
+          42.2554666,
+          -87.8674982
+        ]
+      ]
+    },
+    {
+      "id": "r1190686128-3763397353-3763397348",
+      "osmWayId": "1190686128",
+      "from": "3763397353",
+      "to": "3763397348",
+      "name": "Ring Road",
+      "length": 33,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2548674,
+          -87.8652852
+        ],
+        [
+          42.254945,
+          -87.8653706
+        ],
+        [
+          42.2550729,
+          -87.865576
+        ]
+      ]
+    },
+    {
+      "id": "r1190686129-7499953083-3763397353",
+      "osmWayId": "1190686129",
+      "from": "7499953083",
+      "to": "3763397353",
+      "name": "Ring Road",
+      "length": 34,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2546057,
+          -87.8650888
+        ],
+        [
+          42.2547365,
+          -87.8651608
+        ],
+        [
+          42.2548674,
+          -87.8652852
+        ]
+      ]
+    },
+    {
+      "id": "r1203401390-5588084122-235305496",
+      "osmWayId": "1203401390",
+      "from": "5588084122",
+      "to": "235305496",
+      "name": "South Waukegan Road",
+      "length": 11,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "primary"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2581817,
+          -87.8718435
+        ],
+        [
+          42.2580804,
+          -87.8718495
+        ]
+      ]
+    },
+    {
+      "id": "r1203401390-235305496-235207041",
+      "osmWayId": "1203401390",
+      "from": "235305496",
+      "to": "235207041",
+      "name": "South Waukegan Road",
+      "length": 206,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "primary"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2580804,
+          -87.8718495
+        ],
+        [
+          42.257959,
+          -87.87185
+        ],
+        [
+          42.2562263,
+          -87.871856
+        ]
+      ]
+    },
+    {
+      "id": "r1207067233-7085332546-235370269",
+      "osmWayId": "1207067233",
+      "from": "7085332546",
+      "to": "235370269",
+      "name": "South Waukegan Road",
+      "length": 62,
+      "lanes": 1,
+      "speed": 40,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "primary"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2553187,
+          -87.8718749
+        ],
+        [
+          42.25476,
+          -87.871882
+        ]
+      ]
+    },
+    {
+      "id": "r1362662792-235553451-12772794582",
+      "osmWayId": "1362662792",
+      "from": "235553451",
+      "to": "12772794582",
+      "name": "Westmoreland Connector Road",
+      "length": 40,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "no",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2544923,
+          -87.8631161
+        ],
+        [
+          42.2544889,
+          -87.8632178
+        ],
+        [
+          42.2544976,
+          -87.8635993
+        ]
+      ]
+    },
+    {
+      "id": "r1362662792-12772794582-12772794605",
+      "osmWayId": "1362662792",
+      "from": "12772794582",
+      "to": "12772794605",
+      "name": "Westmoreland Connector Road",
+      "length": 91,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "no",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2544976,
+          -87.8635993
+        ],
+        [
+          42.2544977,
+          -87.8636584
+        ],
+        [
+          42.25449,
+          -87.8641136
+        ],
+        [
+          42.254496,
+          -87.8646991
+        ]
+      ]
+    },
+    {
+      "id": "r1362662792-12772794605-12616349960",
+      "osmWayId": "1362662792",
+      "from": "12772794605",
+      "to": "12616349960",
+      "name": "Westmoreland Connector Road",
+      "length": 29,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "no",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.254496,
+          -87.8646991
+        ],
+        [
+          42.2544817,
+          -87.8649331
+        ],
+        [
+          42.2544511,
+          -87.8650436
+        ]
+      ]
+    },
+    {
+      "id": "r1362662793-12616349960-7499953083",
+      "osmWayId": "1362662793",
+      "from": "12616349960",
+      "to": "7499953083",
+      "name": "Unnamed road",
+      "length": 18,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2544511,
+          -87.8650436
+        ],
+        [
+          42.2546057,
+          -87.8650888
+        ]
+      ]
+    },
+    {
+      "id": "r1366264481-12652673088-12652673089",
+      "osmWayId": "1366264481",
+      "from": "12652673088",
+      "to": "12652673089",
+      "name": "Unnamed road",
+      "length": 12,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2557315,
+          -87.8663098
+        ],
+        [
+          42.2557432,
+          -87.866167
+        ]
+      ]
+    },
+    {
+      "id": "r1366264481-12652673089-7499828549",
+      "osmWayId": "1366264481",
+      "from": "12652673089",
+      "to": "7499828549",
+      "name": "Unnamed road",
+      "length": 31,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2557432,
+          -87.866167
+        ],
+        [
+          42.2557979,
+          -87.8659436
+        ],
+        [
+          42.2558476,
+          -87.8658213
+        ]
+      ]
+    },
+    {
+      "id": "r1366264482-12652673089-12652673092",
+      "osmWayId": "1366264482",
+      "from": "12652673089",
+      "to": "12652673092",
+      "name": "Unnamed road",
+      "length": 32,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2557432,
+          -87.866167
+        ],
+        [
+          42.255758,
+          -87.865976
+        ],
+        [
+          42.2558213,
+          -87.8657961
+        ]
+      ]
+    },
+    {
+      "id": "r1379385098-12772794582-12772794583",
+      "osmWayId": "1379385098",
+      "from": "12772794582",
+      "to": "12772794583",
+      "name": "Unnamed road",
+      "length": 35,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed equal split of OSM total lanes",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2544976,
+          -87.8635993
+        ],
+        [
+          42.2545393,
+          -87.8636016
+        ],
+        [
+          42.2548091,
+          -87.8636191
+        ]
+      ]
+    },
+    {
+      "id": "r1379385099-12772794597-12772794583",
+      "osmWayId": "1379385099",
+      "from": "12772794597",
+      "to": "12772794583",
+      "name": "Unnamed road",
+      "length": 22,
+      "lanes": 3,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 3,
+          "speed": 40,
+          "lanesSource": "OSM lanes",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes",
+        "lanes": "3"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2549476,
+          -87.86377
+        ],
+        [
+          42.2549086,
+          -87.8637663
+        ],
+        [
+          42.2548722,
+          -87.863747
+        ],
+        [
+          42.2548418,
+          -87.8637138
+        ],
+        [
+          42.2548201,
+          -87.8636698
+        ],
+        [
+          42.2548091,
+          -87.8636191
+        ]
+      ]
+    },
+    {
+      "id": "r1379385099-12772794583-12772794597",
+      "osmWayId": "1379385099",
+      "from": "12772794583",
+      "to": "12772794597",
+      "name": "Unnamed road",
+      "length": 68,
+      "lanes": 3,
+      "speed": 40,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 3,
+          "speed": 40,
+          "lanesSource": "OSM lanes",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "oneway": "yes",
+        "lanes": "3"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2548091,
+          -87.8636191
+        ],
+        [
+          42.2548103,
+          -87.8635635
+        ],
+        [
+          42.2548243,
+          -87.8635113
+        ],
+        [
+          42.2548498,
+          -87.8634677
+        ],
+        [
+          42.2548841,
+          -87.8634371
+        ],
+        [
+          42.2549238,
+          -87.8634226
+        ],
+        [
+          42.2549649,
+          -87.8634257
+        ],
+        [
+          42.2550031,
+          -87.8634462
+        ],
+        [
+          42.2550347,
+          -87.8634818
+        ],
+        [
+          42.2550563,
+          -87.863529
+        ],
+        [
+          42.2550648,
+          -87.8635698
+        ],
+        [
+          42.2550657,
+          -87.8636121
+        ],
+        [
+          42.2550591,
+          -87.8636534
+        ],
+        [
+          42.2550453,
+          -87.8636914
+        ],
+        [
+          42.2550193,
+          -87.8637308
+        ],
+        [
+          42.2549857,
+          -87.8637578
+        ],
+        [
+          42.2549476,
+          -87.86377
+        ]
+      ]
+    },
+    {
+      "id": "r1379385101-12772794607-12772794616",
+      "osmWayId": "1379385101",
+      "from": "12772794607",
+      "to": "12772794616",
+      "name": "Unnamed road",
+      "length": 67,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "service": "drive-through",
+        "oneway": "yes",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2548337,
+          -87.8646249
+        ],
+        [
+          42.2548341,
+          -87.864568
+        ],
+        [
+          42.2548308,
+          -87.8645222
+        ],
+        [
+          42.2548579,
+          -87.8644409
+        ],
+        [
+          42.2548914,
+          -87.8643793
+        ],
+        [
+          42.2549287,
+          -87.8643698
+        ],
+        [
+          42.254978,
+          -87.8643526
+        ],
+        [
+          42.2550017,
+          -87.8643805
+        ],
+        [
+          42.2550176,
+          -87.8644516
+        ],
+        [
+          42.2550444,
+          -87.8645884
+        ],
+        [
+          42.2550563,
+          -87.8646434
+        ],
+        [
+          42.2550503,
+          -87.8646876
+        ],
+        [
+          42.2550108,
+          -87.864725
+        ]
+      ]
+    },
+    {
+      "id": "r1379385102-12772794616-12772794607",
+      "osmWayId": "1379385102",
+      "from": "12772794616",
+      "to": "12772794607",
+      "name": "Unnamed road",
+      "length": 24,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "forward",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "service": "drive-through",
+        "oneway": "yes",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2550108,
+          -87.864725
+        ],
+        [
+          42.2549452,
+          -87.8647478
+        ],
+        [
+          42.2549128,
+          -87.8647302
+        ],
+        [
+          42.2548721,
+          -87.8646947
+        ],
+        [
+          42.2548337,
+          -87.8646249
+        ]
+      ]
+    },
+    {
+      "id": "r1379385103-12772794605-12772794607",
+      "osmWayId": "1379385103",
+      "from": "12772794605",
+      "to": "12772794607",
+      "name": "Unnamed road",
+      "length": 38,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "service",
+        "service": "drive-through",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.254496,
+          -87.8646991
+        ],
+        [
+          42.2545511,
+          -87.8646919
+        ],
+        [
+          42.2546653,
+          -87.8646869
+        ],
+        [
+          42.2548337,
+          -87.8646249
+        ]
+      ]
+    },
+    {
+      "id": "r1471086645-13055184125-12616349960",
+      "osmWayId": "1471086645",
+      "from": "13055184125",
+      "to": "12616349960",
+      "name": "Unnamed road",
+      "length": 22,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2542532,
+          -87.8650132
+        ],
+        [
+          42.2543303,
+          -87.8650124
+        ],
+        [
+          42.2544511,
+          -87.8650436
+        ]
+      ]
+    },
+    {
+      "id": "r1482570408-3763397348-3763410861",
+      "osmWayId": "1482570408",
+      "from": "3763397348",
+      "to": "3763410861",
+      "name": "Ring Road",
+      "length": 169,
+      "lanes": 1,
+      "speed": 40.23,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 40.23,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "OSM maxspeed"
+        }
+      },
+      "osmTags": {
+        "highway": "unclassified",
+        "maxspeed": "25 mph"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2550729,
+          -87.865576
+        ],
+        [
+          42.2551259,
+          -87.8656878
+        ],
+        [
+          42.2552095,
+          -87.8658315
+        ],
+        [
+          42.2552579,
+          -87.8659484
+        ],
+        [
+          42.2553151,
+          -87.8661398
+        ],
+        [
+          42.255343,
+          -87.8663325
+        ],
+        [
+          42.2553408,
+          -87.8664489
+        ],
+        [
+          42.2553318,
+          -87.8665499
+        ],
+        [
+          42.2553188,
+          -87.8666867
+        ],
+        [
+          42.2553171,
+          -87.8668651
+        ],
+        [
+          42.2553381,
+          -87.867074
+        ],
+        [
+          42.2554028,
+          -87.8673158
+        ],
+        [
+          42.2554666,
+          -87.8674982
+        ]
+      ]
+    },
+    {
+      "id": "r1523946542-13890660526-13890660528",
+      "osmWayId": "1523946542",
+      "from": "13890660526",
+      "to": "13890660528",
+      "name": "Unnamed road",
+      "length": 19,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2553841,
+          -87.8653475
+        ],
+        [
+          42.2552978,
+          -87.8654316
+        ],
+        [
+          42.255238,
+          -87.8654062
+        ]
+      ]
+    },
+    {
+      "id": "r1523946543-3763397348-13890660528",
+      "osmWayId": "1523946543",
+      "from": "3763397348",
+      "to": "13890660528",
+      "name": "Unnamed road",
+      "length": 23,
+      "lanes": 1,
+      "speed": 15,
+      "direction": "both",
+      "directional": {
+        "forward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        },
+        "backward": {
+          "lanes": 1,
+          "speed": 15,
+          "lanesSource": "Assumed one lane per direction",
+          "speedSource": "Assumed model speed; no usable OSM limit"
+        }
+      },
+      "osmTags": {
+        "highway": "service"
+      },
+      "volume": 350,
+      "turns": [
+        "left",
+        "straight",
+        "right"
+      ],
+      "closed": false,
+      "geometry": [
+        [
+          42.2550729,
+          -87.865576
+        ],
+        [
+          42.255238,
+          -87.8654062
+        ]
+      ]
+    }
+  ],
+  "turnRestrictions": [
+    {
+      "id": "10519421",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r759814507-7085332552-235243094b"
+          ],
+          "exit": "r759814507-7085332552-235243094a"
+        }
+      ]
+    },
+    {
+      "id": "10519423",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r759814509-235207041-7085332552a"
+          ],
+          "exit": "r759814509-235207041-7085332552b"
+        }
+      ]
+    },
+    {
+      "id": "11977883",
+      "restriction": "no_left_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r550895056-5320414179-235207041a"
+          ],
+          "exit": "r759814509-235207041-7085332552a"
+        }
+      ]
+    },
+    {
+      "id": "11977884",
+      "restriction": "no_left_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r759814507-7085332552-235243094a"
+          ],
+          "exit": "r550895055-235243094-5320414179a"
+        }
+      ]
+    },
+    {
+      "id": "11977885",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r759814507-7085332552-235243094a"
+          ],
+          "exit": "r759814507-7085332552-235243094b"
+        }
+      ]
+    },
+    {
+      "id": "11977886",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r759814509-235207041-7085332552b"
+          ],
+          "exit": "r759814509-235207041-7085332552a"
+        }
+      ]
+    },
+    {
+      "id": "11977887",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r1203401390-235305496-235207041a"
+          ],
+          "exit": "r1203401390-235305496-235207041b"
+        }
+      ]
+    },
+    {
+      "id": "14732892",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r372791849-7499693362-13055184125b"
+          ],
+          "exit": "r372791849-7499693362-13055184125a"
+        }
+      ]
+    },
+    {
+      "id": "14732893",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r801830612-7499693362-7499972191b"
+          ],
+          "exit": "r801830612-7499693362-7499972191a"
+        }
+      ]
+    },
+    {
+      "id": "14732894",
+      "restriction": "no_u_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r1106981388-235209119-7499693362a"
+          ],
+          "exit": "r1106981388-235209119-7499693362b"
+        }
+      ]
+    },
+    {
+      "id": "16009074",
+      "restriction": "no_right_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r1482570408-3763397348-3763410861a"
+          ],
+          "exit": "r1184340278-3763410861-12652673088a"
+        }
+      ]
+    },
+    {
+      "id": "16009075",
+      "restriction": "no_left_turn",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r1184340277-3763410861-3763397350b"
+          ],
+          "exit": "r1184340278-3763410861-12652673088a"
+        }
+      ]
+    },
+    {
+      "id": "16009076",
+      "restriction": "no_straight_on",
+      "type": "no",
+      "except": [],
+      "paths": [
+        {
+          "approach": [
+            "r1184340295-5320414171-3763410861a"
+          ],
+          "exit": "r1184340278-3763410861-12652673088a"
+        }
+      ]
+    }
+  ],
+  "restrictionImport": {
+    "found": 89,
+    "imported": 13,
+    "outsideSubset": 74,
+    "unsupported": 2
+  },
+  "center": [
+    42.2547555,
+    -87.8664063
+  ],
+  "importMetadata": {
+    "provider": "OpenStreetMap map API (Overpass fallback)",
+    "retrievedAt": "2026-10-26T05:51:44.932Z",
+    "dataTimestamp": null,
+    "radius": 1400,
+    "truncated": true,
+    "availableNodes": 401,
+    "lanesTagged": 10,
+    "speedsTagged": 22,
+    "snapshot": true
+  },
+  "preset": "lake-forest",
+  "hospital": {
+    "name": "Northwestern Medicine Lake Forest Hospital",
+    "address": "1000 North Westmoreland Road, Lake Forest, Illinois",
+    "endpointId": "3763397348",
+    "referenceCenter": [
+      42.2547555,
+      -87.8664063
+    ],
+    "endpointDistanceM": 77,
+    "osmUrl": "https://www.openstreetmap.org/way/550895078",
+    "informationUrl": "https://www.nm.org/locations/lake-forest-hospital-emergency-department"
+  }
+}

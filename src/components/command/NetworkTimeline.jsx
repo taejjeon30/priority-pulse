@@ -1,0 +1,5 @@
+import {Radio,Check} from 'lucide-react';
+export default function NetworkTimeline({sim}){
+ const route=sim.active?.route||sim.choices.fast;if(!route)return null;
+ return <section className="cc-card cc-wave"><div className="cc-card-title"><Radio size={17}/><h2>Predicted green wave</h2><span className="cc-muted">Updated every second</span></div><div className="cc-wave-scroll">{route.arcs.map((a,i)=>{const d=sim.frame?.decisions.find(n=>n.id===a.to),n=sim.frame?.nodes.find(n=>n.id===a.to),passed=!!sim.frame&&sim.frame.evIndex>i,eta=sim.frame?.etas[a.to]?.eta,can=n?.state==='Green'&&n.phase===a.approach;return <div className={'cc-wave-stop '+(passed?'passed':'')} key={`${a.id}-${i}`}><span>{passed?<Check size={14}/>:i+1}</span><div><b>{sim.draft.network.nodes.find(n=>n.id===a.to)?.name}</b><small>{passed?'Passed':eta>=0?`ETA ${Math.round(eta)}s`:'Awaiting dispatch'}</small><small>{passed?'Completed':can?'Green now':d?.target===a.approach?'Priority green planned':'Clearance / phase pending'}</small></div></div>;})}</div><p className="cc-muted">Green predictions are not guarantees; queues, protected walks and storage can delay arrival.</p></section>;
+}

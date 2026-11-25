@@ -1,0 +1,6 @@
+export default function RoadTurnRules({network,road}){
+ const ids=new Set([`${road.id}a`,`${road.id}b`]),rules=(network.turnRestrictions||[]).filter(rule=>rule.paths.some(p=>p.approach.some(id=>ids.has(id))||ids.has(p.exit)));
+ if(!road.osmWayId)return null;
+ const names=new Map(network.roads.flatMap(r=>[[`${r.id}a`,r.name],[`${r.id}b`,r.name]]));
+ return <div className="mt-3 border-t border-border pt-3"><strong className="text-xs">Imported OSM turn rules</strong>{rules.length?<ul className="mt-2 space-y-2">{rules.map(rule=><li key={rule.id} className="text-xs text-muted-foreground"><b className="text-foreground">{rule.restriction.replaceAll('_',' ')}</b>{[...new Set(rule.paths.map(p=>`${names.get(p.approach[0])||'Approach'} → ${names.get(p.exit)||'Outside loaded network'}`))].map(text=><div key={text}>{text}</div>)}{rule.paths.some(p=>p.approach.length>1)&&<div>Via-road sequence enforced.</div>}{rule.except?.length>0&&<div>Exceptions: {rule.except.join(', ')}</div>}</li>)}</ul>:<p className="cc-muted">No applicable OSM restriction imported for this road.</p>}<p className="cc-muted">Manual turn settings add constraints; they do not remove imported rules. Emergency routing honors explicit emergency exceptions. Time-dependent restrictions are not evaluated.</p></div>;
+}

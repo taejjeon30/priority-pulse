@@ -1,0 +1,7 @@
+import {ListTree} from 'lucide-react';
+import {controllerLabels} from '@/components/command/controllerLabels';
+import DecisionExplanation from '@/components/command/DecisionExplanation';
+export default function DecisionLog({sim}){
+ const logs=sim.frame?.logs.slice(-3).reverse()||[];
+ return <section className="cc-card cc-decision-log"><div className="cc-card-title"><ListTree size={17}/><h2>Signal decisions · {controllerLabels[sim.mode]}</h2><span className="cc-tag">SIMULATED</span></div>{logs.length?logs.map((d,i)=><button key={`${d.id}-${d.t}-${i}`} onClick={()=>sim.setSelection({type:'node',id:d.id})}><span><b>{d.name}</b><small>{d.t}s</small></span><DecisionExplanation decision={d} mode={sim.mode}/>{sim.engineer&&<small>{d.reason}</small>}{sim.mode==='PriorityPulse'&&sim.engineer&&<p>Predicted network tradeoff: ambulance delay change {(-d.benefit).toFixed(1)}s · ordinary delay change {d.trafficCost.toFixed(1)}s per currently queued vehicle, versus the hold/recovery plan. These are forecasts, not measured savings.</p>}</button>):<p className="cc-muted">{sim.frame?'No signal changes yet at this point. Advance the timeline or select an intersection to inspect its current state.':'No simulation yet. Choose the locations and select Dispatch ambulance to see signal decisions.'}</p>}</section>;
+}

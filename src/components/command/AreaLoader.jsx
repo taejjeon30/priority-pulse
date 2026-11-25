@@ -1,0 +1,11 @@
+import {MapPin,Download,Loader2} from 'lucide-react';
+import {useState} from 'react';
+import useRoadLoader from '@/components/command/useRoadLoader';
+import {areas} from '@/components/command/network';
+import lakeForestCorridor from '@/components/command/lakeForestCorridor.json';
+export default function AreaLoader({sim}){
+ const [area,setArea]=useState(0),[atCenter,setAtCenter]=useState(false),[radius,setRadius]=useState(1400),loadRoads=useRoadLoader(sim);
+ function load(){const center=atCenter?sim.mapCenter:areas[area].center;return loadRoads(center,atCenter?'Selected map area':areas[area].name,{radius,...(!atCenter&&areas[area].preset?{preset:areas[area].preset}:{})});}
+ function preload(){sim.load(structuredClone(lakeForestCorridor));sim.setMessage('Preloaded Lake Forest corridor loaded from real OSM geometry. This is a saved road snapshot, not live traffic. The hospital destination is a modeled road-access proxy. Use Undo last edit to restore your previous network.');}
+ return <div className="cc-area-loader flex-wrap"><MapPin size={16}/><select aria-label="Real map area" disabled={sim.loading} value={area} onChange={e=>{setArea(Number(e.target.value));setAtCenter(false);}}>{areas.map((a,i)=><option key={a.name} value={i}>{a.name}</option>)}</select><select aria-label="Road import radius" disabled={sim.loading} value={radius} onChange={e=>setRadius(Number(e.target.value))}>{[500,1000,1400,2000].map(r=><option key={r} value={r}>{r} m radius</option>)}</select><label><input type="checkbox" disabled={sim.loading} checked={atCenter} onChange={e=>setAtCenter(e.target.checked)}/> Use map center</label><button className="cc-button" disabled={sim.loading} onClick={load}>{sim.loading?<Loader2 size={14} className="animate-spin"/>:<Download size={14}/>} {sim.loading?'Loading road data…':'Load live OSM roads'}</button>{!atCenter&&areas[area].preset==='lake-forest'&&<button className="cc-button" disabled={sim.loading} onClick={preload}>Use preloaded corridor</button>}</div>;
+}

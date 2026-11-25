@@ -1,0 +1,5 @@
+import {ResponsiveContainer,BarChart,Bar,XAxis,YAxis,Tooltip,CartesianGrid,ErrorBar,Cell} from 'recharts';
+export default function ExperimentChart({data,unit}){
+ const colors=['hsl(var(--muted-foreground))','hsl(var(--chart-4))','hsl(var(--primary))'];
+ return <section className="cc-card cc-chart"><h3>Mean with approximate 95% confidence intervals ({unit})</h3><div className="cc-chart-inner"><ResponsiveContainer width="100%" height="100%"><BarChart data={data} margin={{top:20,right:25,left:5,bottom:10}}><CartesianGrid stroke="hsl(var(--border))" strokeDasharray="3 5" vertical={false}/><XAxis dataKey="mode" tick={{fontSize:11}}/><YAxis tick={{fontSize:11}}/><Tooltip formatter={v=>typeof v==='number'?v.toFixed(2):v}/><Bar dataKey="mean" isAnimationActive={false}>{data.map((r,i)=><Cell key={r.mode} fill={colors[i]}/>)}<ErrorBar dataKey="error" width={8} stroke="hsl(var(--foreground))"/></Bar></BarChart></ResponsiveContainer></div></section>;
+}

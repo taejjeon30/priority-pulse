@@ -1,0 +1,6 @@
+import {Route,Check} from 'lucide-react';
+import {routeSignature} from '@/components/command/network';
+export default function RouteOptions({sim}){
+ const options=sim.choices.options||[],selected=routeSignature(sim.selectedRoute);
+ return <div className="cc-route-options"><div className="cc-card-title"><Route size={15}/><h2>Route comparison</h2></div>{!options.length?<p className="cc-muted">No legal route. Check closures and turning rules.</p>:options.map((r,i)=><button className={`cc-route-option ${selected===routeSignature(r)?'selected':''}`} key={routeSignature(r)} onClick={()=>sim.setRouteId(routeSignature(r))}><span><b>Route {String.fromCharCode(65+i)}</b>{i===0&&<small>Recommended</small>}{selected===routeSignature(r)&&<Check size={13}/>}</span><strong>{(r.distance/1000).toFixed(2)} km · {Math.round(r.prediction)}s</strong><small>{r.arcs.length} signals · {i===0?'Lowest modeled travel time':`${Math.max(0,Math.round(r.prediction-options[0].prediction))}s additional predicted time`}</small></button>)}{options.length===1&&<p className="cc-muted">Only one legal alternative found.</p>}<small className="cc-muted">Driving, configured signals and volume-based queue estimates; not live traffic. Selected route applies on the next ambulance dispatch.</small></div>;
+}

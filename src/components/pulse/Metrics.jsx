@@ -1,0 +1,5 @@
+import {Timer,Car,ShieldCheck,Route} from 'lucide-react';
+export default function Metrics({sim}){
+ const m=sim.frame,items=[[Timer,'Emergency travel',m.arrival!==null?`${m.arrival} s`:m.t<sim.active.dispatch?'Ready':`${m.t-sim.active.dispatch} s`,'Dispatch → destination'],[Car,'Network queue',`${m.total}`,'Vehicles waiting now'],[Route,'Vehicles completed',m.completed,'Exited the simulated network'],[ShieldCheck,'Signal safety',sim.run.metrics.safety===null?'No transitions':`${sim.run.metrics.safety.toFixed(0)}%`,'Legal completed transitions · full run']];
+ return <div className="metric-grid">{items.map(([Icon,label,value,note])=><div className="pulse-card metric" key={label}><span className="metric-title">{label}<Icon size={17}/></span><strong>{value}</strong><small>{note}</small></div>)}</div>;
+}

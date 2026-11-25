@@ -1,0 +1,4 @@
+import {Radio,Check} from 'lucide-react';
+export default function GreenWave({sim}){
+ return <section className="pulse-card green-wave"><div className="card-heading"><Radio size={17}/><h2>Corridor coordination</h2><span className="mini-label green-label">PREDICTIVE PLAN</span></div><div className="wave-stops">{sim.frame.decisions.map((d,i)=>{const cleared=sim.frame.next>(sim.active.origin==='west'?i:2-i),active=d.eta>=0&&d.eta<=d.prep;return <div className="wave-stop" key={i}><span className={'wave-node '+(cleared?'cleared':active?'preparing':'')}>{cleared?<Check size={14}/>:String(i+1).padStart(2,'0')}</span><div><strong>{d.name}</strong><small>{cleared?'Route clear · recovering':sim.mode==='Fixed-Time'?'Fixed-time schedule':sim.mode==='Reactive'?'Detector trigger at 12s':active?'Prepare emergency green':`Prepare in ${Math.max(0,Math.ceil(d.eta-d.prep))}s`}</small></div></div>;})}</div></section>;
+}

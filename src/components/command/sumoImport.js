@@ -1,0 +1,9 @@
+import compareSumo from '@/components/command/sumoComparison';
+export const sumoMetrics=[['emergency','Mean capped ambulance response','s'],['completed','Ordinary trips completed','trips'],['commonTravel','Common-cohort offered-to-arrival time','s']];
+function parseXml(text){if(/<!DOCTYPE|<!ENTITY/i.test(text))throw new Error('DTD/entity declarations are not accepted. Use the original SUMO output.');const d=new DOMParser().parseFromString(text,'application/xml');if(d.querySelector('parsererror'))throw new Error('Invalid XML. Select a complete SUMO tripinfo file.');return d;}
+export default function sumoImport(text,manifest){
+ const doc=parseXml(text);if(doc.documentElement.tagName!=='tripinfos')throw new Error('Select SUMO tripinfo output, not the network or route inputs.');const entries=[...doc.getElementsByTagName('tripinfo')];if(!entries.length)throw new Error('No trip records found. Enable unfinished and undeparted tripinfo output.');
+ const configuration=text.match(/<configuration\b[\s\S]*?<\/configuration>/)?.[0];if(!configuration)throw new Error('The output configuration header is missing. Re-run SUMO with its default XML header enabled so the seed, network and observation can be checked.');
+ const cfg=parseXml(configuration),options=Object.fromEntries(['seed','net-file','begin','end','step-length'].map(key=>[key,cfg.getElementsByTagName(key)[0]?.getAttribute('value')])),records=entries.map(e=>Object.fromEntries(['id','depart','arrival','departDelay','vaporized','rerouteNo'].map(key=>[key,e.getAttribute(key)])));
+ return compareSumo(records,options,manifest,text.match(/(?:SUMO|sumo) Version\s+([^<\n]+)/)?.[1]?.trim()||'Not reported');
+}

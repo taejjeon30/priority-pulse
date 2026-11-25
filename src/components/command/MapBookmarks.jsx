@@ -1,0 +1,6 @@
+import {useState} from 'react';
+import {Bookmark,Trash2} from 'lucide-react';
+export default function MapBookmarks({sim}){
+ const [name,setName]=useState('');
+ return <details className="cc-map-details"><summary><Bookmark size={14}/> Bookmarks <span>{sim.bookmarks.length}</span></summary><form className="cc-input-row" onSubmit={e=>{e.preventDefault();sim.addBookmark(name,sim.mapCenter);setName('');}}><input aria-label="Bookmark name" maxLength={80} placeholder="Name this map location" value={name} onChange={e=>setName(e.target.value)}/><button className="cc-button" disabled={!name.trim()}>Save center</button></form>{sim.bookmarks.map(b=><div className="cc-bookmark" key={b.id}><button className="cc-text-button" onClick={()=>sim.focusMap(b.center)}>{b.name}</button><button className="cc-icon-button" aria-label={`Remove ${b.name} bookmark`} onClick={()=>sim.removeBookmark(b.id)}><Trash2 size={12}/></button></div>)}{sim.canUndoBookmark&&<button className="cc-button" onClick={sim.undoBookmark}>Undo bookmark removal</button>}{sim.bookmarksWarning&&<p className="cc-error" role="alert">{sim.bookmarksWarning}</p>}<small className="cc-muted">Locations stay in this browser when storage is available. Map tiles are not saved for offline use.</small></details>;
+}

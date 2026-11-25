@@ -1,0 +1,7 @@
+import {useState} from 'react';
+import {controllers} from '@/components/command/experimentStats';
+import {controllerLabels} from '@/components/command/controllerLabels';
+export default function ExperimentRuns({result,onReplay}){
+ const [page,setPage]=useState(0),pages=Math.ceil(result.rows.length/25),rows=result.rows.slice(page*25,(page+1)*25);
+ return <section className="mt-5"><h3 className="font-semibold">Reproducible seed results</h3><p className="cc-muted mt-2">Emergency travel seconds. An asterisk marks no arrival within observation; the displayed value is the observation cap, not a completed travel time.</p><div className="cc-card cc-results-table"><table><thead><tr><th>Seed</th>{controllers.map(mode=><th key={mode}>{controllerLabels[mode]}</th>)}<th>Replay</th></tr></thead><tbody>{rows.map(row=><tr key={row.seed}><td>{row.seed}</td>{controllers.map(mode=>{const r=row.results.find(r=>r.mode===mode);return <td key={mode}>{r.restrictedTravel.toFixed(0)}{r.evTime===null?'*':''}</td>;})}<td><button className="cc-button" onClick={()=>onReplay(result.snapshot,row.seed)}>Replay seed</button></td></tr>)}</tbody></table></div><div className="flex items-center gap-3"><button className="cc-button" disabled={page===0} onClick={()=>setPage(p=>p-1)}>Previous</button><span className="text-xs text-muted-foreground">Page {page+1} of {pages}</span><button className="cc-button" disabled={page+1>=pages} onClick={()=>setPage(p=>p+1)}>Next</button></div></section>;
+}

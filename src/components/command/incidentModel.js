@@ -1,0 +1,8 @@
+import {findRoute,meters} from '@/components/command/network';
+export const incidentTypes=['Vehicle accident','Building fire','Medical emergency','Police incident','Road obstruction','Hazardous spill','Infrastructure failure'];
+export const severities=['Minor','Moderate','Major','Critical'];
+export const responders=['Ambulance','Fire','Police'];
+export const networkKey=network=>network.nodes.map(n=>n.id).sort().join('|');
+export function facilitiesOf(draft){const nodes=draft.network.nodes;if(!nodes.length)return [];return [{id:'hospital',name:'Designated hospital',type:'Hospital',node:nodes.find(n=>n.id===draft.destination)||nodes.at(-1)},...responders.map((type,i)=>({id:`base-${type}`,name:`${type} training base`,type,node:nodes[Math.floor(i*nodes.length/3)]}))];}
+export function nearestNode(network,lat,lng){return [...network.nodes].sort((a,b)=>meters(a,{lat,lng})-meters(b,{lat,lng}))[0];}
+export function planResponses(draft,nodeId,required,queues={}){const bases=facilitiesOf(draft);return required.map(type=>{const base=bases.find(b=>b.type===type),origin=base?.node.id,route=origin===nodeId?{arcs:[],distance:0,prediction:0,cost:0}:findRoute(draft.network,origin,nodeId,'time',queues);return {id:crypto.randomUUID(),type,unit:`${type==='Ambulance'?'AMB':type==='Fire'?'FIRE':'POL'}-001`,origin,destination:nodeId,route,status:route?'Ready':'Unreachable',rationale:!route?'No legal path through road directions, permitted turns and closures.':origin===nodeId?'The training unit is already at the incident intersection.':`Route minimizes modeled driving, red-signal and queue delay from the assigned training base. ${Math.round(route.prediction)}s predicted without signal priority.`};});}
